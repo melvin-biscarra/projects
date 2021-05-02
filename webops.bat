@@ -1,6 +1,6 @@
-del C:\Python27\*.png
+del C:\Python27\env\*.png
 
-cd C:\Python27
+cd C:\Python27\env
 
 python notif.py
 python mail1.py
