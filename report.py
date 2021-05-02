@@ -4,7 +4,6 @@ from selenium.webdriver.firefox.options import Options
 
 options = Options()
 options.headless = True
-driver = webdriver.Firefox(options=options)
 driver.get("https://petixnginx.tk/")
 time.sleep(10) 
 driver.get_screenshot_as_file('petixnginx.png') 
