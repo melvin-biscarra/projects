@@ -4,7 +4,7 @@ from selenium.webdriver.firefox.options import Options
 
 options = Options()
 options.headless = True
-driver = webdriver.Firefox(options=options, executable_path=r'C:\Python27\geckodriver.exe')
+driver = webdriver.Firefox(options=options, executable_path=r'C:\Python27\env\geckodriver.exe')
 driver.get("https://login.newrelic.com/login?return_to=https%3A%2F%2Fone.newrelic.com%2Flauncher%2Fdashboards.launcher%3Fpane%3DeyJuZXJkbGV0SWQiOiJkYXNoYm9hcmRzLmRhc2hib2FyZCIsImVudGl0eUlkIjoiTWpBeE9Ea3dmRlpKV254RVFWTklRazlCVWtSOE1UY3lPVGt6TXciLCJ1c2VEZWZhdWx0VGltZVJhbmdlIjpmYWxzZSwiaXNUZW1wbGF0ZUVtcHR5IjpmYWxzZSwiZWRpdE1vZGUiOmZhbHNlLCJpc1NhdmluZ0VkaXRDaGFuZ2VzIjpmYWxzZX0%3D%26platform%5BaccountId%5D%3D201890%26platform%5B%24isFallbackTimeRange%5D%3Dtrue&login%5Bemail%5D=itopswebops@carparts.com&button=")
 time.sleep(10)
 
